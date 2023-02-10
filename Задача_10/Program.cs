@@ -14,7 +14,7 @@ int result;
 if ((number/ 100>0) && (number / 1000==0))
 
 {
-  result=number/10 % 10;
+  result=number /10 % 10;
   Console.WriteLine(result);
 }
 else 
