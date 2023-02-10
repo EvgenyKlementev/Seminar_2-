@@ -8,7 +8,7 @@
 
 Console.WriteLine("Введите трехзначное число: ");
 String? strNumber = Console.ReadLine();
-int number=Convert.ToInt32(Console.ReadLine());
+int number=Convert.ToInt32(strNumber);
 int result;
 
 if ((number/ 100>0) && (number / 1000==0))
